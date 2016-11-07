@@ -38,3 +38,6 @@ C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\CookbookApp\b
 C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\CookbookApp\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\CookbookApp\obj\Debug\ErrorPage.g.cs
 C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\CookbookApp\obj\Debug\ErrorPage.baml
+C:\Users\Bartek\Source\Repos\cookbookapp\CookbookApp\bin\Debug\CookbookApp.exe.config
+C:\Users\Bartek\Source\Repos\cookbookapp\CookbookApp\obj\Debug\CookbookApp.exe
+C:\Users\Bartek\Source\Repos\cookbookapp\CookbookApp\obj\Debug\CookbookApp.pdb
