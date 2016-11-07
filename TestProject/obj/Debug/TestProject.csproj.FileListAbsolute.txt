@@ -1,0 +1,16 @@
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\bin\Debug\TestProject.exe.config
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\bin\Debug\TestProject.exe
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\bin\Debug\TestProject.pdb
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\bin\Debug\DataAccessLayer.dll
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\bin\Debug\DataTransferObjects.dll
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\bin\Debug\EntityFramework.dll
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\bin\Debug\AutoMapper.dll
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\bin\Debug\DataAccessLayer.pdb
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\bin\Debug\DataTransferObjects.pdb
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\bin\Debug\EntityFramework.xml
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\bin\Debug\AutoMapper.xml
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\obj\Debug\TestProject.exe
+C:\Users\Bartosz\Documents\Visual Studio 2015\Projects\CookbookApp\TestProject\obj\Debug\TestProject.pdb

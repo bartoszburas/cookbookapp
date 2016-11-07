@@ -1,0 +1,16 @@
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\bin\Release\HostApp.exe.config
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\bin\Release\HostApp.exe
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\bin\Release\HostApp.pdb
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\bin\Release\ServiceLayer.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\bin\Release\DataTransferObjects.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\bin\Release\DataAccessLayer.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\bin\Release\EntityFramework.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\bin\Release\AutoMapper.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\bin\Release\ServiceLayer.pdb
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\bin\Release\DataTransferObjects.pdb
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\bin\Release\DataAccessLayer.pdb
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\bin\Release\EntityFramework.xml
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\bin\Release\AutoMapper.xml
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\obj\Release\HostApp.csprojResolveAssemblyReference.cache
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\obj\Release\HostApp.exe
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\HostApp\obj\Release\HostApp.pdb

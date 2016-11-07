@@ -1,0 +1,17 @@
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\UnitTests.dll.config
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\DataAccessLayer.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\DataTransferObjects.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\EntityFramework.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\AutoMapper.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\DataAccessLayer.pdb
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\DataTransferObjects.pdb
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\EntityFramework.xml
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\bin\Debug\AutoMapper.xml
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\UnitTests\obj\Debug\UnitTests.pdb

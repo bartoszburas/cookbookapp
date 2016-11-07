@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookbookApp", "CookbookApp\CookbookApp.csproj", "{A5E6FCB3-D04B-432D-B5EC-549DDC4C9404}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BFF56529-6605-425F-8BAF-248E0F35246E} = {BFF56529-6605-425F-8BAF-248E0F35246E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{682ADE00-9A5A-4C23-BDAC-EF783F5C47BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransferObjects", "DataTransferObjects\DataTransferObjects.csproj", "{A5F3839B-B0A3-4AEA-B809-85B01F707495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "ServiceLayer\ServiceLayer.csproj", "{BFF56529-6605-425F-8BAF-248E0F35246E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{05B18DB9-8FE1-4811-A8DF-589853E06AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5E6FCB3-D04B-432D-B5EC-549DDC4C9404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E6FCB3-D04B-432D-B5EC-549DDC4C9404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E6FCB3-D04B-432D-B5EC-549DDC4C9404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E6FCB3-D04B-432D-B5EC-549DDC4C9404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682ADE00-9A5A-4C23-BDAC-EF783F5C47BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682ADE00-9A5A-4C23-BDAC-EF783F5C47BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682ADE00-9A5A-4C23-BDAC-EF783F5C47BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682ADE00-9A5A-4C23-BDAC-EF783F5C47BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F3839B-B0A3-4AEA-B809-85B01F707495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F3839B-B0A3-4AEA-B809-85B01F707495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F3839B-B0A3-4AEA-B809-85B01F707495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F3839B-B0A3-4AEA-B809-85B01F707495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF56529-6605-425F-8BAF-248E0F35246E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF56529-6605-425F-8BAF-248E0F35246E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF56529-6605-425F-8BAF-248E0F35246E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF56529-6605-425F-8BAF-248E0F35246E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B18DB9-8FE1-4811-A8DF-589853E06AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B18DB9-8FE1-4811-A8DF-589853E06AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B18DB9-8FE1-4811-A8DF-589853E06AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B18DB9-8FE1-4811-A8DF-589853E06AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

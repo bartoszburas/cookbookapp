@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="cookbookdbModelStoreContainer" CdmEntityContainer="cookbookdbEntities">
+    <EntitySetMapping Name="Ingredients">
+      <EntityTypeMapping TypeName="cookbookdbModel.Ingredient">
+        <MappingFragment StoreEntitySet="Ingredient">
+          <ScalarProperty Name="idIngredient" ColumnName="idIngredient" />
+          <ScalarProperty Name="idRecipe" ColumnName="idRecipe" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="unit" ColumnName="unit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Preparations">
+      <EntityTypeMapping TypeName="cookbookdbModel.Preparation">
+        <MappingFragment StoreEntitySet="Preparation">
+          <ScalarProperty Name="idRecipe" ColumnName="idRecipe" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Recipes">
+      <EntityTypeMapping TypeName="cookbookdbModel.Recipe">
+        <MappingFragment StoreEntitySet="Recipe">
+          <ScalarProperty Name="idRecipe" ColumnName="idRecipe" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="preparationTime" ColumnName="preparationTime" />
+          <ScalarProperty Name="skillLevel" ColumnName="skillLevel" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="picture" ColumnName="picture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,14 @@
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\bin\Release\ServiceLayer.dll.config
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\bin\Release\ServiceLayer.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\bin\Release\ServiceLayer.pdb
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\bin\Release\DataAccessLayer.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\bin\Release\DataTransferObjects.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\bin\Release\EntityFramework.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\bin\Release\AutoMapper.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\bin\Release\DataTransferObjects.pdb
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\bin\Release\EntityFramework.xml
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\bin\Release\AutoMapper.xml
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\obj\Release\ServiceLayer.csprojResolveAssemblyReference.cache
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\obj\Release\ServiceLayer.dll
+C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\ServiceLayer\obj\Release\ServiceLayer.pdb

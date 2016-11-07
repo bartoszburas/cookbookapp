@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="cookbookdbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Ingredient">
+    <Key>
+      <PropertyRef Name="idIngredient" />
+    </Key>
+    <Property Name="idIngredient" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idRecipe" Type="int" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="amount" Type="int" Nullable="false" />
+    <Property Name="unit" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Preparation">
+    <Key>
+      <PropertyRef Name="idRecipe" />
+    </Key>
+    <Property Name="idRecipe" Type="int" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Recipe">
+    <Key>
+      <PropertyRef Name="idRecipe" />
+    </Key>
+    <Property Name="idRecipe" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="preparationTime" Type="time" Precision="7" Nullable="false" />
+    <Property Name="skillLevel" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="amount" Type="int" Nullable="false" />
+    <Property Name="picture" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK__Ingredien__idRec__3A81B327">
+    <End Role="Recipe" Type="Self.Recipe" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Ingredient" Type="Self.Ingredient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Recipe">
+        <PropertyRef Name="idRecipe" />
+      </Principal>
+      <Dependent Role="Ingredient">
+        <PropertyRef Name="idRecipe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Preparati__idRec__3D5E1FD2">
+    <End Role="Recipe" Type="Self.Recipe" Multiplicity="1" />
+    <End Role="Preparation" Type="Self.Preparation" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Recipe">
+        <PropertyRef Name="idRecipe" />
+      </Principal>
+      <Dependent Role="Preparation">
+        <PropertyRef Name="idRecipe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="cookbookdbModelStoreContainer">
+    <EntitySet Name="Ingredient" EntityType="Self.Ingredient" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Preparation" EntityType="Self.Preparation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Recipe" EntityType="Self.Recipe" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Ingredien__idRec__3A81B327" Association="Self.FK__Ingredien__idRec__3A81B327">
+      <End Role="Recipe" EntitySet="Recipe" />
+      <End Role="Ingredient" EntitySet="Ingredient" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Preparati__idRec__3D5E1FD2" Association="Self.FK__Preparati__idRec__3D5E1FD2">
+      <End Role="Recipe" EntitySet="Recipe" />
+      <End Role="Preparation" EntitySet="Preparation" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
