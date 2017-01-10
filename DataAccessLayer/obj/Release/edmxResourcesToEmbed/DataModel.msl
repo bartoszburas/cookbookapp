@@ -2,8 +2,8 @@
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="cookbookdbModelStoreContainer" CdmEntityContainer="cookbookdbEntities">
     <EntitySetMapping Name="Ingredients">
-      <EntityTypeMapping TypeName="cookbookdbModel.Ingredient">
-        <MappingFragment StoreEntitySet="Ingredient">
+      <EntityTypeMapping TypeName="IsTypeOf(cookbookdbModel.Ingredient)">
+        <MappingFragment StoreEntitySet="Ingredients">
           <ScalarProperty Name="idIngredient" ColumnName="idIngredient" />
           <ScalarProperty Name="idRecipe" ColumnName="idRecipe" />
           <ScalarProperty Name="name" ColumnName="name" />
@@ -13,16 +13,16 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Preparations">
-      <EntityTypeMapping TypeName="cookbookdbModel.Preparation">
-        <MappingFragment StoreEntitySet="Preparation">
+      <EntityTypeMapping TypeName="IsTypeOf(cookbookdbModel.Preparation)">
+        <MappingFragment StoreEntitySet="Preparations">
           <ScalarProperty Name="idRecipe" ColumnName="idRecipe" />
           <ScalarProperty Name="description" ColumnName="description" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Recipes">
-      <EntityTypeMapping TypeName="cookbookdbModel.Recipe">
-        <MappingFragment StoreEntitySet="Recipe">
+      <EntityTypeMapping TypeName="IsTypeOf(cookbookdbModel.Recipe)">
+        <MappingFragment StoreEntitySet="Recipes">
           <ScalarProperty Name="idRecipe" ColumnName="idRecipe" />
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="preparationTime" ColumnName="preparationTime" />

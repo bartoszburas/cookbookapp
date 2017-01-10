@@ -41,3 +41,43 @@ C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\CookbookApp\o
 C:\Users\Bartek\Source\Repos\cookbookapp\CookbookApp\bin\Debug\CookbookApp.exe.config
 C:\Users\Bartek\Source\Repos\cookbookapp\CookbookApp\obj\Debug\CookbookApp.exe
 C:\Users\Bartek\Source\Repos\cookbookapp\CookbookApp\obj\Debug\CookbookApp.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\CookbookApp.exe.config
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\CookbookApp.exe
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\CookbookApp.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\DataTransferObjects.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\DataTransferObjects.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\CookbookApp.csprojResolveAssemblyReference.cache
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\AddRecipe.g.cs
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\ErrorPage.g.cs
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\MainPage.g.cs
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\MainWindow.g.cs
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\RecipePage.g.cs
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\App.g.cs
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\CookbookApp_MarkupCompile.cache
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\CookbookApp_MarkupCompile.lref
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\AddRecipe.baml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\ErrorPage.baml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\MainPage.baml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\MainWindow.baml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\RecipePage.baml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\CookbookApp.g.resources
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\CookbookApp.Properties.Resources.resources
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\CookbookApp.csproj.GenerateResource.Cache
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\CookbookApp.exe
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\CookbookApp.pdb

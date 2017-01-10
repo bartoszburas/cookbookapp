@@ -12,3 +12,17 @@ C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\DataAccessLay
 C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\DataAccessLayer\obj\Release\DataAccessLayer.csprojResolveAssemblyReference.cache
 C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\DataAccessLayer\obj\Release\DataAccessLayer.dll
 C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\DataAccessLayer\obj\Release\DataAccessLayer.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Release\DataAccessLayer.dll.config
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Release\DataAccessLayer.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Release\AutoMapper.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Release\DataTransferObjects.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Release\EntityFramework.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Release\DataTransferObjects.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Release\AutoMapper.xml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Release\EntityFramework.xml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\obj\Release\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\obj\Release\DataAccessLayer.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\obj\Release\DataAccessLayer.pdb

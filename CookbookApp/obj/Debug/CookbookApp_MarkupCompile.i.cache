@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Bartek\Source\Repos\cookbookapp\CookbookApp\obj\Debug\
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\obj\Debug\
 CookbookApp
 none
 false
 DEBUG;TRACE
-C:\Users\Bartek\Source\Repos\cookbookapp\CookbookApp\App.xaml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\CookbookApp\App.xaml
 51960988766
 
 19673974891
-23-1346199667
+23-498033665
 AddRecipe.xaml;ErrorPage.xaml;MainPage.xaml;MainWindow.xaml;RecipePage.xaml;
 
-True
+False
 

@@ -3,3 +3,8 @@ C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\DataTransferO
 C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\DataTransferObjects\obj\Release\DataTransferObjects.csprojResolveAssemblyReference.cache
 C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\DataTransferObjects\obj\Release\DataTransferObjects.dll
 C:\Users\Bartosz\documents\visual studio 2015\Projects\CookbookApp\DataTransferObjects\obj\Release\DataTransferObjects.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\bin\Release\DataTransferObjects.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\bin\Release\DataTransferObjects.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\obj\Release\DataTransferObjects.csprojResolveAssemblyReference.cache
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\obj\Release\DataTransferObjects.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\obj\Release\DataTransferObjects.pdb

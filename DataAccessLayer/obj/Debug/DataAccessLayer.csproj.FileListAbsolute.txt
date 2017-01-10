@@ -26,3 +26,17 @@ C:\Users\Bartek\Source\Repos\cookbookapp\DataAccessLayer\bin\Debug\EntityFramewo
 C:\Users\Bartek\Source\Repos\cookbookapp\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
 C:\Users\Bartek\Source\Repos\cookbookapp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\Bartek\Source\Repos\cookbookapp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Debug\AutoMapper.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Debug\DataTransferObjects.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Debug\DataTransferObjects.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Debug\AutoMapper.xml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
