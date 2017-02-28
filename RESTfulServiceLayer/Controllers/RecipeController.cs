@@ -9,13 +9,6 @@ namespace RESTfulServiceLayer.Controllers
     {
         IDataAccessObjectFactory daoFactory = DatabaseFactory.GetInstance();
 
-        public RecipeController() { }
-
-        public RecipeController(IDataAccessObjectFactory daoFactory)
-        {
-            this.daoFactory = daoFactory;
-        }
-
         public RecipeDto Get(int id)
         {
             IDataAccessObject dao = daoFactory.GetDao();
