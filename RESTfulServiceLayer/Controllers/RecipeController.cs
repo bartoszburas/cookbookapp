@@ -1,10 +1,6 @@
 ﻿using DataAccessLayer;
 using DataTransferObjects;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace RESTfulServiceLayer.Controllers
@@ -12,6 +8,13 @@ namespace RESTfulServiceLayer.Controllers
     public class RecipeController : ApiController
     {
         IDataAccessObjectFactory daoFactory = DatabaseFactory.GetInstance();
+
+        public RecipeController() { }
+
+        public RecipeController(IDataAccessObjectFactory daoFactory)
+        {
+            this.daoFactory = daoFactory;
+        }
 
         public RecipeDto Get(int id)
         {
@@ -22,9 +25,9 @@ namespace RESTfulServiceLayer.Controllers
         public List<RecipeSimplifiedDto> Get()
         {
             IDataAccessObject dao = daoFactory.GetDao();
-            List<DataTransferObjects.RecipeSimplifiedDto> list = dao.GetRecipeList();
+            List<RecipeSimplifiedDto> list = dao.GetRecipeList();
             List<RecipeSimplifiedDto> retVal = new List<RecipeSimplifiedDto>();
-            foreach (DataTransferObjects.RecipeSimplifiedDto recipe in list)
+            foreach (RecipeSimplifiedDto recipe in list)
                 retVal.Add(recipe);
             return retVal;
         }

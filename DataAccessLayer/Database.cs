@@ -70,11 +70,14 @@ namespace DataAccessLayer
                 
                 RecipeDto recipe = mapper.Map<RecipeDto>(query.FirstOrDefault());
 
-                var query2 = from r in db.Preparations
-                            where r.idRecipe == id
-                            select r;
+                if(recipe != null)
+                {
+                    var query2 = from r in db.Preparations
+                                 where r.idRecipe == id
+                                 select r;
 
-                recipe.PreparationDescription = query2.FirstOrDefault().description;
+                    recipe.PreparationDescription = query2.FirstOrDefault()?.description;
+                }
 
                 return recipe;
             }

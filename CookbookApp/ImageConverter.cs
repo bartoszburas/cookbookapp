@@ -9,7 +9,7 @@ namespace CookbookApp
 {
     class ImageConverter
     {
-        public ImageSource byteArrayToImage(byte[] byteArrayIn)
+        public ImageSource ByteArrayToImage(byte[] byteArrayIn)
         {
             BitmapImage image = null;
             if (byteArrayIn != null)
@@ -30,7 +30,7 @@ namespace CookbookApp
             return image;
         }
 
-        public byte[] imagetoByteArray(string path)
+        public byte[] ImagetoByteArray(string path)
         {
             System.Drawing.Image img = System.Drawing.Image.FromFile(path);
             MemoryStream ms = new MemoryStream();
@@ -47,7 +47,7 @@ namespace CookbookApp
                 {
                     IdRecipe = recipe.IdRecipe,
                     Name = recipe.Name,
-                    Picture = byteArrayToImage(recipe.Picture)
+                    Picture = ByteArrayToImage(recipe.Picture)
                 };
 
                 newList.Add(r);
@@ -64,7 +64,7 @@ namespace CookbookApp
                 IdRecipe = recipe.IdRecipe,
                 Ingredients = recipe.RecipeIngredient,
                 Name = recipe.Name,
-                Picture = byteArrayToImage(recipe.Picture),
+                Picture = ByteArrayToImage(recipe.Picture),
                 Preparation = recipe.PreparationDescription,
                 PreparationTime = recipe.PreparationTime,
                 SkillLevel = recipe.SkillLevel

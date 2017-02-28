@@ -1,17 +1,39 @@
-﻿using System;
+﻿using DataTransferObjects;
+using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 
 namespace RESTfulServiceLayer.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        HttpClient client;
+        string url = "http://cookbookapp.azurewebsites.net/api/recipe";
+
+        public async Task<ActionResult> Index()
         {
             ViewBag.Title = "Home Page";
 
+            client = new HttpClient()
+            {
+                BaseAddress = new System.Uri(url)
+            };
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(
+                new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+            HttpResponseMessage responseMessage = await client.GetAsync(url);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var responseData = responseMessage.Content.ReadAsStringAsync().Result;
+
+                var recipesData = JsonConvert.DeserializeObject<List<RecipeSimplifiedDto>>(responseData);
+                var recipes = new ViewModels.RecipeListViewModel();
+                foreach (var r in recipesData)
+                    recipes.list.Add(r);
+                return View(recipes);
+            }
             return View();
         }
     }

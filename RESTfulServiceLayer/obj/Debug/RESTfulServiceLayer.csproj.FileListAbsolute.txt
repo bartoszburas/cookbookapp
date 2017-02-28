@@ -190,3 +190,5 @@ C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\RESTfulService
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\RESTfulServiceLayer\obj\Debug\RESTfulServiceLayer.csprojResolveAssemblyReference.cache
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\RESTfulServiceLayer\obj\Debug\RESTfulServiceLayer.dll
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\RESTfulServiceLayer\obj\Debug\RESTfulServiceLayer.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\RESTfulServiceLayer\bin\Microsoft.ApplicationInsights.TraceListener.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\RESTfulServiceLayer\bin\Microsoft.ApplicationInsights.TraceListener.xml

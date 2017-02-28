@@ -49,7 +49,7 @@ namespace CookbookApp
             };
 
             if (imgPath != null)
-                newRecipe.adaptee.Picture = converter.imagetoByteArray(imgPath);
+                newRecipe.adaptee.Picture = converter.ImagetoByteArray(imgPath);
 
             List<IngredientDto> ingredients = (List<IngredientDto>)dataGrid.ItemsSource;
             newRecipe.adaptee.Ingredients = ingredients.ToArray();
