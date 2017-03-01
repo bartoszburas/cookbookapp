@@ -1,5 +1,7 @@
 ﻿using DataAccessLayer;
 using DataTransferObjects;
+using RESTfulServiceLayer.Cache;
+using System;
 using System.Collections.Generic;
 using System.Web.Http;
 
@@ -8,21 +10,34 @@ namespace RESTfulServiceLayer.Controllers
     public class RecipeController : ApiController
     {
         IDataAccessObjectFactory daoFactory = DatabaseFactory.GetInstance();
+        MemoryCacher cache = new MemoryCacher();
 
         public RecipeDto Get(int id)
         {
-            IDataAccessObject dao = daoFactory.GetDao();
-            return dao.GetRecipe(id);
+            var result = (RecipeDto)cache.GetValue(id.ToString());
+            if(result == null)
+            {
+                IDataAccessObject dao = daoFactory.GetDao();
+                result = dao.GetRecipe(id);
+                cache.Add(id.ToString(), result, DateTimeOffset.UtcNow.AddMinutes(15));
+            }
+            return result;
         }
 
         public List<RecipeSimplifiedDto> Get()
         {
-            IDataAccessObject dao = daoFactory.GetDao();
-            List<RecipeSimplifiedDto> list = dao.GetRecipeList();
-            List<RecipeSimplifiedDto> retVal = new List<RecipeSimplifiedDto>();
-            foreach (RecipeSimplifiedDto recipe in list)
-                retVal.Add(recipe);
-            return retVal;
+            var result = (List<RecipeSimplifiedDto>)cache.GetValue("List");
+            if(result == null)
+            {
+                IDataAccessObject dao = daoFactory.GetDao();
+                List<RecipeSimplifiedDto> list = dao.GetRecipeList();
+                result = new List<RecipeSimplifiedDto>();
+                foreach (RecipeSimplifiedDto recipe in list)
+                    result.Add(recipe);
+                cache.Add("List", result, DateTimeOffset.UtcNow.AddMinutes(15));
+            }
+           
+            return result;
         }
 
         public void Post(RecipeDto recipe)
