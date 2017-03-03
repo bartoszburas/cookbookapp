@@ -67,13 +67,15 @@ namespace UnitTests
                     Picture = sampleRecipe.Picture
                 }));
 
-            var listCopy = new List<RecipeSimplifiedDto>(sampleList);
-            listCopy.Add(new RecipeSimplifiedDto()
+            var listCopy = new List<RecipeSimplifiedDto>(sampleList)
             {
-                IdRecipe = sampleRecipe.IdRecipe,
-                Name = sampleRecipe.Name,
-                Picture = sampleRecipe.Picture
-            });
+                new RecipeSimplifiedDto()
+                {
+                    IdRecipe = sampleRecipe.IdRecipe,
+                    Name = sampleRecipe.Name,
+                    Picture = sampleRecipe.Picture
+                }
+            };
 
             // Act
             mockedDatabase.Object.AddRecipe(sampleRecipe);

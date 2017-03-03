@@ -12,4 +12,3 @@ C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferOb
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\bin\Debug\DataTransferObjects.pdb
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\obj\Debug\DataTransferObjects.dll
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\obj\Debug\DataTransferObjects.pdb
-C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\obj\Debug\DataTransferObjects.csprojResolveAssemblyReference.cache

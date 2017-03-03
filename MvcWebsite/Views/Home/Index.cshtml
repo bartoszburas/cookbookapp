@@ -1,0 +1,14 @@
+﻿@using MvcWebsiteClient.ViewModels
+@model RecipeListViewModel
+<div class="jumbotron">
+    <h1>Recipe List</h1>
+    <p class="lead">This is the list of recipes consumed from webApi:</p>
+    <h2>Consumed Web Api</h2>
+    @foreach (var x in Model.list)
+    {
+        <a href="http://cookbookapp.azurewebsites.net/RecipeDetails/Index/@x.IdRecipe">@x.Name</a>
+        <br />
+    }
+    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+

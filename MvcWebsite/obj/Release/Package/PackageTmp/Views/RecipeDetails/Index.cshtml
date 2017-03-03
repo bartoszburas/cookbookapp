@@ -1,0 +1,49 @@
+﻿
+@using MvcWebsiteClient.ViewModels
+@model RecipeDetailsViewModel
+@{
+    ViewBag.Title = "RecipeDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Name</h2>
+
+<p>
+    <div class="Image">
+        @{
+            if (Model.Picture != null)
+            {
+                string imageBase64 = Convert.ToBase64String(Model.Picture);
+                string imageSrc = string.Format("data:image/jpeg;base64,{0}", imageBase64);
+                <img src="@imageSrc" width="100" height="100" />
+            }
+        }
+    </div>
+    <div class="GeneralInfo">
+        Meal for: <strong>@Model.Amount</strong> <br />
+        Time of preparation: <strong>@Model.PreparationTime</strong><br />
+        Skill level: <strong>@Model.SkillLevel</strong><br />
+    </div>
+    <div class="IngredientsInfo">
+        <table>
+            <thead>
+                <tr>
+                    <td>Ingredient</td>
+                    <td>Amount</td>
+                    <td>Unit</td>
+                </tr>
+            </thead>
+            @foreach (var @i in Model.Ingredients)
+            {
+                <tr>
+                    <td>@i.IngredientName</td>
+                    <td>@i.Amount</td>
+                    <td>@i.Unit</td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="PrepInfo">
+        Preparation: <strong>@Model.PreparationDescription</strong><br />
+    </div>
+</p>
