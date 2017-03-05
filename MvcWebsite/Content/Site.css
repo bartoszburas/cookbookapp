@@ -29,6 +29,10 @@ th, td {
     padding: 15px;
 }
 
+.IngredientsInfo {
+    float: right;
+}
+
 .PrepInfo {
     padding: 15px;
 }

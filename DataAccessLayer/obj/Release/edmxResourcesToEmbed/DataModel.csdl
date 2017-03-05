@@ -70,5 +70,16 @@
       <End Role="Recipe" EntitySet="Recipes" />
       <End Role="Preparation" EntitySet="Preparations" />
     </AssociationSet>
+    <EntitySet Name="ShopListItems" EntityType="cookbookdbModel.ShopListItem" />
   </EntityContainer>
+  <EntityType Name="ShopListItem">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ingredientName" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="amount" Type="Int32" />
+    <Property Name="userName" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="unit" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>

@@ -82,3 +82,9 @@ C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\obj
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\obj\Debug\MvcWebsite.pdb
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\DataTransferObjects.dll
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\DataTransferObjects.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\Carbon.Forms.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\Carbon.Json.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\Carbon.OAuth.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\Google.Authentication.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\System.Text.Encodings.Web.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\System.Text.Encodings.Web.xml

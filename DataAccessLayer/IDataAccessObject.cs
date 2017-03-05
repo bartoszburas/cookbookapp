@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using DataTransferObjects;
 
 namespace DataAccessLayer
@@ -13,5 +9,6 @@ namespace DataAccessLayer
         RecipeDto GetRecipe(int id);
         void AddRecipe(RecipeDto recipe);
         void DeleteRecipe(string name);
+        List<IngredientDto> GetShopList(string userName);
     }
 }

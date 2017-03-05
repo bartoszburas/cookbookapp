@@ -28,5 +28,6 @@ namespace DataAccessLayer
         public virtual DbSet<Ingredient> Ingredients { get; set; }
         public virtual DbSet<Preparation> Preparations { get; set; }
         public virtual DbSet<Recipe> Recipes { get; set; }
+        public virtual DbSet<ShopListItem> ShopListItems { get; set; }
     }
 }

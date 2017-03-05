@@ -34,5 +34,12 @@ namespace MvcWebsiteClient.Controllers
             }
             return View();
         }
+
+        public ActionResult AddToShopList()
+        {
+            
+
+            return RedirectToAction("Index", "RecipeDetails");
+        }
     }
 }

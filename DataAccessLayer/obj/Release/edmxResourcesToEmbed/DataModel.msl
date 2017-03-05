@@ -32,5 +32,16 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="ShopListItems">
+      <EntityTypeMapping TypeName="cookbookdbModel.ShopListItem">
+        <MappingFragment StoreEntitySet="ShopListItem">
+          <ScalarProperty Name="unit" ColumnName="unit" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="ingredientName" ColumnName="ingredientName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

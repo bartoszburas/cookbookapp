@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using AutoMapper;
 using DataTransferObjects;
-using System.Data.Entity.Validation;
 
 namespace DataAccessLayer
-{ 
+{
     public class Database : IDataAccessObject
     {
         private MapperConfiguration config;
@@ -88,6 +85,15 @@ namespace DataAccessLayer
             using (var db = new cookbookdbEntities())
             {
                 List<RecipeSimplifiedDto> list = mapper.Map<List<RecipeSimplifiedDto>>(db.Recipes);
+                return list;
+            }
+        }
+
+        public List<IngredientDto> GetShopList(string userName)
+        {
+            using (var db = new cookbookdbEntities())
+            {
+                List<IngredientDto> list = mapper.Map<List<IngredientDto>>(db.ShopListItems);
                 return list;
             }
         }

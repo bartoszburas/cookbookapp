@@ -13,6 +13,7 @@ namespace MvcWebsiteClient.Controllers
         HttpClient client;
         string url = "http://cookbookapp.azurewebsites.net/api/recipe";
 
+        [RequireHttps]
         public async Task<ActionResult> Index()
         {
             ViewBag.Title = "Home Page";

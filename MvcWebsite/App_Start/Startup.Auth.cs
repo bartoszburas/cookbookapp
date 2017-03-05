@@ -58,11 +58,13 @@ namespace MvcWebsite
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "1057005036230-d2pmmadhml2c8qfvq8jekj69g775bask.apps.googleusercontent.com",
+                ClientSecret = "TpOR7UPgkeer1-JGQHqtZDoE"
+            });
+
+            
         }
     }
 }

@@ -28,6 +28,16 @@
     <Property Name="amount" Type="int" Nullable="false" />
     <Property Name="picture" Type="varbinary(max)" />
   </EntityType>
+  <EntityType Name="ShopListItem">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ingredientName" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="userName" Type="varchar" MaxLength="1" />
+    <Property Name="amount" Type="int" />
+    <Property Name="unit" Type="varchar" MaxLength="1" />
+  </EntityType>
   <Association Name="FK__Ingredien__idRec__3A81B327">
     <End Role="Recipes" Type="Self.Recipes" Multiplicity="1">
       <OnDelete Action="Cascade" />
@@ -58,6 +68,7 @@
     <EntitySet Name="Ingredients" EntityType="Self.Ingredients" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Preparations" EntityType="Self.Preparations" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Recipes" EntityType="Self.Recipes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ShopListItem" EntityType="Self.ShopListItem" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK__Ingredien__idRec__3A81B327" Association="Self.FK__Ingredien__idRec__3A81B327">
       <End Role="Recipes" EntitySet="Recipes" />
       <End Role="Ingredients" EntitySet="Ingredients" />

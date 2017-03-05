@@ -3,11 +3,12 @@ using DataTransferObjects;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Net.Mail;
 
-namespace UnitTests
+namespace IntegrationTests
 {
     /// <summary>
     ///     Database tests change the state of database. These are not tests with mocked data! 
@@ -15,11 +16,11 @@ namespace UnitTests
     [TestFixture]
     public class DatabaseTests
     {
-
         [Test]
         public void AddRecipeTest()
         {
-            Database database = new Database();
+            IDataAccessObjectFactory factory = DatabaseFactory.GetInstance();
+            IDataAccessObject database = factory.GetDao();
             RecipeDto newRecipe = new RecipeDto()
             {
                 Amount = 2,
@@ -39,6 +40,7 @@ namespace UnitTests
             foreach (RecipeSimplifiedDto r in list)
                 if (r.Name == "Test")
                     return;
+            Debug.WriteLine("Check connection: " + factory.GetConnectionString());
             Assert.Fail();
         }
 
@@ -53,7 +55,8 @@ namespace UnitTests
         [Test]
         public void DeleteRecipeTest()
         {
-            Database database = new Database();
+            IDataAccessObjectFactory factory = DatabaseFactory.GetInstance();
+            IDataAccessObject database = factory.GetDao();
             database.DeleteRecipe("Test");
             List<RecipeSimplifiedDto> list = database.GetRecipeList();
             foreach (RecipeSimplifiedDto r in list)
@@ -64,16 +67,21 @@ namespace UnitTests
         [Test]
         public void GetRecipeTest()
         {
-            Database database = new Database();
+            IDataAccessObjectFactory factory = DatabaseFactory.GetInstance();
+            IDataAccessObject database = factory.GetDao();
             var r = database.GetRecipe(1);
             if (r.Ingredients == null)
+            {
+                Debug.WriteLine("Check connection: " + factory.GetConnectionString());
                 Assert.Fail();
+            }
         }
 
         [Test]
         public void GetRecipeListTest()
         {
-            var database = new Database();
+            IDataAccessObjectFactory factory = DatabaseFactory.GetInstance();
+            IDataAccessObject database = factory.GetDao();
 
             try
             {
@@ -81,6 +89,7 @@ namespace UnitTests
             }
             catch (Exception)
             {
+                Debug.WriteLine("Check connection: " + factory.GetConnectionString());
                 SendEmailToDatabaseAdmin();
                 Assert.Fail();
             }

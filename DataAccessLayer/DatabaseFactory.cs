@@ -11,16 +11,21 @@ namespace DataAccessLayer
         private static DatabaseFactory instance;
         protected DatabaseFactory() { }
 
-        public IDataAccessObject GetDao()
-        {
-            return new Database();
-        }
-
         public static IDataAccessObjectFactory GetInstance()
         {
             if (instance == null)
                 instance = new DatabaseFactory();
             return instance;
+        }
+
+        public string GetConnectionString()
+        {
+            return System.Configuration.ConfigurationManager.ConnectionStrings["cookbookdbEntities"].ConnectionString;
+        }
+
+        public IDataAccessObject GetDao()
+        {
+            return new Database();
         }
     }
 }

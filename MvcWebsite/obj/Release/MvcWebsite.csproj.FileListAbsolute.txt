@@ -82,3 +82,11 @@ C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\obj\Release\MvcWebsite.csprojResolveAssemblyReference.cache
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\obj\Release\MvcWebsite.dll
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\obj\Release\MvcWebsite.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\Carbon.Forms.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\Carbon.Json.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\Carbon.OAuth.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\Google.Authentication.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\System.Text.Encodings.Web.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\System.Text.Encodings.Web.xml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\MvcWebsite.dll.CodeAnalysisLog.xml
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\MvcWebsite.dll.lastcodeanalysissucceeded

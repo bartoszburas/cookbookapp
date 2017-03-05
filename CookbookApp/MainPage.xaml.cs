@@ -1,5 +1,4 @@
 ﻿using CookbookApp.ServiceReference;
-//using DataTransferObjects;
 using System;
 using System.Collections.Generic;
 using System.IO;
