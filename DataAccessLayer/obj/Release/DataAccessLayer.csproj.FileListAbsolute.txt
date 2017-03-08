@@ -26,5 +26,3 @@ C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLaye
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\obj\Release\DataAccessLayer.csprojResolveAssemblyReference.cache
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\obj\Release\DataAccessLayer.dll
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\obj\Release\DataAccessLayer.pdb
-C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Release\DataAccessLayer.dll.CodeAnalysisLog.xml
-C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataAccessLayer\bin\Release\DataAccessLayer.dll.lastcodeanalysissucceeded

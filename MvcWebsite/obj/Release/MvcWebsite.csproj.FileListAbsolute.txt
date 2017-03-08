@@ -88,5 +88,3 @@ C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\Google.Authentication.dll
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\System.Text.Encodings.Web.dll
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\System.Text.Encodings.Web.xml
-C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\MvcWebsite.dll.CodeAnalysisLog.xml
-C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\MvcWebsite\bin\MvcWebsite.dll.lastcodeanalysissucceeded

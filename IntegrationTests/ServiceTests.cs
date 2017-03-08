@@ -12,10 +12,6 @@ namespace IntegrationTests
         public async Task GetRecipeListServiceTest()
         {
             const string url = "http://cookbookapp.azurewebsites.net/api/recipe";
-            //HttpClientHandler handler = new HttpClientHandler()
-            //{
-            //    Credentials = 
-            //}
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(url);
             client.DefaultRequestHeaders.Accept.Clear();

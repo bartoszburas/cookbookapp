@@ -29,5 +29,9 @@ namespace DataAccessLayer
         public virtual DbSet<Preparation> Preparations { get; set; }
         public virtual DbSet<Recipe> Recipes { get; set; }
         public virtual DbSet<ShopListItem> ShopListItems { get; set; }
+        public virtual DbSet<AspNetRole> AspNetRoles { get; set; }
+        public virtual DbSet<AspNetUserClaim> AspNetUserClaims { get; set; }
+        public virtual DbSet<AspNetUserLogin> AspNetUserLogins { get; set; }
+        public virtual DbSet<AspNetUser> AspNetUsers { get; set; }
     }
 }

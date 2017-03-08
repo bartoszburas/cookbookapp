@@ -9,6 +9,8 @@ namespace DataAccessLayer
         RecipeDto GetRecipe(int id);
         void AddRecipe(RecipeDto recipe);
         void DeleteRecipe(string name);
-        List<IngredientDto> GetShopList(string userName);
+        List<IngredientDto> GetShopList(string userId);
+        void AddShopListItem(string userId, IngredientDto ingredient);
+        void DeleteShopListItem(string userId, string ingredientName);
     }
 }

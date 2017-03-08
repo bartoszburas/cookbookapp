@@ -54,5 +54,6 @@ C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\WebApiServiceL
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\WebApiServiceLayer\bin\Microsoft.Owin.xml
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\WebApiServiceLayer\bin\EntityFramework.SqlServer.dll
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\WebApiServiceLayer\bin\EntityFramework.SqlServer.xml
-C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\WebApiServiceLayer\bin\WebApiServiceLayer.dll.CodeAnalysisLog.xml
-C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\WebApiServiceLayer\bin\WebApiServiceLayer.dll.lastcodeanalysissucceeded
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\WebApiServiceLayer\bin\System.Web.Cors.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\WebApiServiceLayer\bin\System.Web.Http.Cors.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\WebApiServiceLayer\bin\System.Web.Http.Cors.xml

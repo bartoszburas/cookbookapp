@@ -17,7 +17,9 @@ namespace DataAccessLayer
         public int id { get; set; }
         public string ingredientName { get; set; }
         public Nullable<int> amount { get; set; }
-        public string userName { get; set; }
         public string unit { get; set; }
+        public string userId { get; set; }
+    
+        public virtual AspNetUser AspNetUser { get; set; }
     }
 }

@@ -120,5 +120,39 @@ namespace IntegrationTests
                 client.Send(message);
             }
         }
+
+        [Test]
+        public void GetShopList()
+        {
+            IDataAccessObjectFactory factory = DatabaseFactory.GetInstance();
+            IDataAccessObject database = factory.GetDao();
+
+            var result = database.GetShopList("Test");
+        }
+
+        [Test]
+        public void AddShopListItem()
+        {
+            IDataAccessObjectFactory factory = DatabaseFactory.GetInstance();
+            IDataAccessObject database = factory.GetDao();
+
+            var item = new IngredientDto()
+            {
+                Amount = 3,
+                IngredientName = "test",
+                Unit = "test"
+            };
+
+            database.AddShopListItem("db1500c7-f616-45d3-8069-14a9f264f2fa", item);
+        }
+
+        [Test]
+        public void DeleteShopListItem()
+        {
+            IDataAccessObjectFactory factory = DatabaseFactory.GetInstance();
+            IDataAccessObject database = factory.GetDao();
+
+            database.DeleteShopListItem("db1500c7-f616-45d3-8069-14a9f264f2fa", "toDelete");
+        }
     }
 }

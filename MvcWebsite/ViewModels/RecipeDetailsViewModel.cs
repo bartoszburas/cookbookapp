@@ -16,7 +16,7 @@ namespace MvcWebsiteClient.ViewModels
             PreparationTime = recipe.PreparationTime;
             SkillLevel = recipe.SkillLevel;
             Amount = recipe.Amount;
-            Picture = recipe.Picture;           // TODO: use imageConverter from wpf project
+            Picture = recipe.Picture;          
             PreparationDescription = recipe.PreparationDescription;
             Ingredients = recipe.Ingredients;
         }

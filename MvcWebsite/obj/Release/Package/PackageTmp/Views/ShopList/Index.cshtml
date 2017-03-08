@@ -1,0 +1,32 @@
+﻿@using Microsoft.AspNet.Identity;
+@model MvcWebsite.ViewModels.ShopListViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Shopping list for @User.Identity.Name</h2>
+
+@if (Model == null || Model.list.Count == 0)
+{
+    <p>Your shopping list is empty. Click on ingredient in recipe page to add it to this list.</p>
+}
+else
+{
+    <p>Click on ingredient to delete it from this list.</p>
+    <table class="ShopListTable">
+        @foreach (var s in Model.list)
+        {
+            <tr class="shopListItemRow">
+                <td class="ingredientNameTd">@s.IngredientName</td>
+                <td class="ingredientAmountTd">@s.Amount</td>
+                <td class="ingredientUnitTd">@s.Unit</td>
+            </tr>
+        }
+    </table>
+}
+
+<script>
+    var usrId = '@User.Identity.GetUserId()';
+</script>

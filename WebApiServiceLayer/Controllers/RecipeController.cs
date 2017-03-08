@@ -40,6 +40,7 @@ namespace WebApiService.Controllers
             return result;
         }
 
+        [Authorize]
         public void Post(RecipeDto recipe)
         {
             IDataAccessObject dao = daoFactory.GetDao();
