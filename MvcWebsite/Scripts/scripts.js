@@ -35,7 +35,7 @@
                 data: shopListItem,
                 dataType: "application/json",
                 success: function () {
-                    
+                    // TODO: Add some nice effect to show that the item was added
                 }
             })
         });

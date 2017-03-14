@@ -26,12 +26,12 @@ namespace CookbookApp
 
         private void comboBox_Loaded(object sender, RoutedEventArgs e)
         {
-            List<string> skillLevelList = new List<string>() { "Łatwe", "Średnie", "Trudne" };
+            List<string> skillLevelList = new List<string>() { "begginer", "intermediate", "advanced" };
             comboBox.ItemsSource = skillLevelList;
             comboBox.SelectedIndex = 0;
         }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
+        private void Button1_Click(object sender, RoutedEventArgs e)
         {
             ImageConverter converter = new ImageConverter();
 
@@ -49,7 +49,7 @@ namespace CookbookApp
             };
 
             if (imgPath != null)
-                newRecipe.adaptee.Picture = converter.ImagetoByteArray(imgPath);
+                newRecipe.adaptee.Picture = ImageConverter.ImagetoByteArray(imgPath);
 
             List<IngredientDto> ingredients = (List<IngredientDto>)dataGrid.ItemsSource;
             newRecipe.adaptee.Ingredients = ingredients.ToArray();
@@ -60,11 +60,13 @@ namespace CookbookApp
 
         private void uploadImg_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog op = new OpenFileDialog();
-            op.Title = "Select a picture";
-            op.Filter = "All supported graphics|*.jpg;*.jpeg;*.png|" +
+            OpenFileDialog op = new OpenFileDialog()
+            {
+                Title = "Select a picture",
+                Filter = "All supported graphics|*.jpg;*.jpeg;*.png|" +
               "JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|" +
-              "Portable Network Graphic (*.png)|*.png";
+              "Portable Network Graphic (*.png)|*.png"
+            };
             if (op.ShowDialog() == true)
             {
                 imgPath = op.FileName;

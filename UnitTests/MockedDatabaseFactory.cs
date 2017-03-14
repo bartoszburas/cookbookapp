@@ -19,7 +19,7 @@ namespace UnitTests
 
             SetupMock(mockedDatabase);
 
-            return (IDataAccessObject)mockedDatabase;
+            return mockedDatabase.Object;
         }
 
         private void SetupMock(Mock<IDataAccessObject> mockedDatabase)
@@ -39,11 +39,11 @@ namespace UnitTests
                 },
                 Name = "Test6",
                 PreparationDescription = "Test7",
-                PreparationTime = new System.TimeSpan(),
+                PreparationTime = new TimeSpan(),
                 SkillLevel = "begginer"
             };
 
-            List<RecipeSimplifiedDto> sampleList = new List<RecipeSimplifiedDto>()
+            List<RecipeSimplifiedDto> sampleRecipeList = new List<RecipeSimplifiedDto>()
             {
                 new RecipeSimplifiedDto()
                 {
@@ -62,11 +62,32 @@ namespace UnitTests
                 },
             };
 
+            List<IngredientDto> sampleShopList = new List<IngredientDto>()
+            {
+                new IngredientDto()
+                {
+                    Amount = 9, IngredientName = "test", Unit = "test"
+                },
+                new IngredientDto()
+                {
+                    Amount = 9, IngredientName = "test", Unit = "test"
+                },
+                new IngredientDto()
+                {
+                    Amount = 9, IngredientName = "test", Unit = "test"
+                },
+                new IngredientDto()
+                {
+                    Amount = 9, IngredientName = "test", Unit = "test"
+                }
+            };
 
-            mockedDatabase.Setup(x => x.GetRecipeList()).Returns(sampleList);
+
+            mockedDatabase.Setup(x => x.GetRecipeList()).Returns(sampleRecipeList);
             mockedDatabase.Setup(x => x.GetRecipe(1)).Returns(sampleRecipe);
+            mockedDatabase.Setup(x => x.GetShopList("testUser")).Returns(sampleShopList);
             mockedDatabase.Setup(x => x.AddRecipe(sampleRecipe))
-                .Callback<RecipeDto>(x => sampleList.Add(new RecipeSimplifiedDto()
+                .Callback<RecipeDto>(x => sampleRecipeList.Add(new RecipeSimplifiedDto()
                 {
                     IdRecipe = sampleRecipe.IdRecipe,
                     Name = sampleRecipe.Name,

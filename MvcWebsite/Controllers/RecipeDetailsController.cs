@@ -37,8 +37,6 @@ namespace MvcWebsiteClient.Controllers
 
         public ActionResult AddToShopList()
         {
-            
-
             return RedirectToAction("Index", "RecipeDetails");
         }
     }

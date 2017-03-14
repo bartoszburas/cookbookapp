@@ -8,14 +8,13 @@ namespace WebApiServiceLayer.Controllers
 {
     public class ShopListController : ApiController
     {
-        IDataAccessObjectFactory daoFactory = DatabaseFactory.GetInstance();
+        private IDataAccessObjectFactory daoFactory = DatabaseFactory.GetInstance();
 
-        // GET: api/ShopList
-        [Authorize]
-        public IEnumerable<string> Get()
+        public ShopListController() { }
+
+        public ShopListController(IDataAccessObjectFactory daoFactory)
         {
-            // TODO
-            return new string[] { "value1", "value2" };
+            this.daoFactory = daoFactory;
         }
 
         // GET: api/ShopList/TestUser

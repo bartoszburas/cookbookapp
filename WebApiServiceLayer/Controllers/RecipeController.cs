@@ -9,8 +9,15 @@ namespace WebApiService.Controllers
 {
     public class RecipeController : ApiController
     {
-        IDataAccessObjectFactory daoFactory = DatabaseFactory.GetInstance();
-        MemoryCacher cache = new MemoryCacher();
+        private IDataAccessObjectFactory daoFactory = DatabaseFactory.GetInstance();
+        private MemoryCacher cache = new MemoryCacher();
+
+        public RecipeController() { }
+
+        public RecipeController(IDataAccessObjectFactory daoFactory)
+        {
+            this.daoFactory = daoFactory;
+        }
 
         public RecipeDto Get(int id)
         {

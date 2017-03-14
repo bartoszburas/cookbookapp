@@ -7,5 +7,4 @@ C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferOb
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\bin\Release\DataTransferObjects.pdb
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\obj\Release\DataTransferObjects.dll
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\obj\Release\DataTransferObjects.pdb
-C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\bin\Release\DataTransferObjects.dll.CodeAnalysisLog.xml
-C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\bin\Release\DataTransferObjects.dll.lastcodeanalysissucceeded
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\DataTransferObjects\obj\Release\DataTransferObjects.csprojResolveAssemblyReference.cache

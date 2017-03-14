@@ -57,27 +57,27 @@
     </Key>
     <Property Name="idIngredient" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="idRecipe" Type="int" Nullable="false" />
-    <Property Name="name" Type="varchar" MaxLength="40" Nullable="false" />
     <Property Name="amount" Type="int" Nullable="false" />
-    <Property Name="unit" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="name" Type="varchar(max)" Nullable="false" />
+    <Property Name="unit" Type="varchar" MaxLength="30" />
   </EntityType>
   <EntityType Name="Preparations">
     <Key>
       <PropertyRef Name="idRecipe" />
     </Key>
     <Property Name="idRecipe" Type="int" Nullable="false" />
-    <Property Name="description" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="description" Type="varchar(max)" Nullable="false" />
   </EntityType>
   <EntityType Name="Recipes">
     <Key>
       <PropertyRef Name="idRecipe" />
     </Key>
     <Property Name="idRecipe" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="name" Type="varchar" MaxLength="30" Nullable="false" />
     <Property Name="preparationTime" Type="time" Precision="7" Nullable="false" />
     <Property Name="skillLevel" Type="varchar" MaxLength="20" Nullable="false" />
     <Property Name="amount" Type="int" Nullable="false" />
     <Property Name="picture" Type="varbinary(max)" />
+    <Property Name="name" Type="varchar(max)" Nullable="false" />
   </EntityType>
   <EntityType Name="ShopListItem">
     <Key>

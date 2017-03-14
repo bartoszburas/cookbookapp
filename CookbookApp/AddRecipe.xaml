@@ -34,7 +34,7 @@
         <Label x:Name="label_Copy7" Content="sekund" HorizontalAlignment="Left" Margin="373,83,0,0" VerticalAlignment="Top" Foreground="White" Width="50"/>
         <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="368,278,0,0" VerticalAlignment="Top" Height="131" Width="274"/>
         <TextBox x:Name="preptb" HorizontalAlignment="Left" Height="126" Margin="33,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="286"/>
-        <Button x:Name="button1" Content="Dodaj przepis" HorizontalAlignment="Left" Margin="527,431,0,0" VerticalAlignment="Top" Width="115" Height="45" Click="button1_Click"/>
+        <Button x:Name="button1" Content="Dodaj przepis" HorizontalAlignment="Left" Margin="527,431,0,0" VerticalAlignment="Top" Width="115" Height="45" Click="Button1_Click"/>
         <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="438,87,0,0" VerticalAlignment="Top" Width="214"/>
         <Button x:Name="uploadImg" Content="Wybierz zdjęcie..." HorizontalAlignment="Left" Margin="498,213,0,0" VerticalAlignment="Top" Width="102" Height="26" Click="uploadImg_Click"/>
 
