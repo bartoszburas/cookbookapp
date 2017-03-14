@@ -17,7 +17,7 @@ namespace UnitTests
         public void ConvertFromImageToBinaryTest()
         {
             byte[] result = ImageConverter.ImagetoByteArray("test.jpeg");
-            Assert.Fail();
+            Assert.Fail(); // 
         }
     }
 }
