@@ -27,6 +27,34 @@ else
     </table>
 }
 
+<br />
+<p>You can also add custom product via form below:</p>
+
+@using (Html.BeginForm(null, null, FormMethod.Post,
+    new { @action = $"https://cookbookapp.azurewebsites.net/api/Shoplist/{User.Identity.GetUserId()}/Add",
+            @id = "sendNewItem"}))
+{
+    <table>
+        <tr>
+            <td>@Html.Label("Product:")</td>
+            <td>@Html.TextBox("IngredientName")</td>
+            <td><div id="ingrNameValidation"></div></td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Amount:")</td>
+            <td>@Html.TextBox("Amount")</td>
+            <td><div id="amountValidation"></div></td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Unit:")</td>
+            <td>@Html.TextBox("Unit")</td>
+            <td><div id="unitValidation"></div></td>
+        </tr>
+    </table>
+    <input type="submit" value="Add" class="btn btn-primary btn-lg" onclick="validate()" />
+    <div id="additionalValidationInfo"></div>
+}
+
 <script>
     var usrId = '@User.Identity.GetUserId()';
 </script>

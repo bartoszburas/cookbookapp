@@ -33,8 +33,6 @@ namespace CookbookApp
 
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
-            ImageConverter converter = new ImageConverter();
-
             ServiceReference.RecipeDto newRecipe = new ServiceReference.RecipeDto()
             {
                 adaptee = new DataTransferObjects.RecipeDto()

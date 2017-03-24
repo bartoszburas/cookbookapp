@@ -97,7 +97,7 @@
       <PropertyRef Name="id" />
     </Key>
     <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="ingredientName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ingredientName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="amount" Type="Int32" />
     <Property Name="unit" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
     <Property Name="userId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />

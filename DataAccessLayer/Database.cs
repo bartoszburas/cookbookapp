@@ -10,7 +10,7 @@ namespace DataAccessLayer
     {
         private MapperConfiguration config;
         private IMapper mapper;
-
+         
         public Database()
         {
             config = new MapperConfiguration(cfg =>

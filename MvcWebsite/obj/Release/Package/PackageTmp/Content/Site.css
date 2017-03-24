@@ -44,3 +44,7 @@ th, td {
 .hoveredTd {
     background-color: chocolate;
 }
+
+.selectedIngredient {
+    background-color: red;
+}

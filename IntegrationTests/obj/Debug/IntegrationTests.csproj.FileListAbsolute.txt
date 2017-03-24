@@ -28,3 +28,8 @@ C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\IntegrationTes
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\IntegrationTests\obj\Debug\IntegrationTests.pdb
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\IntegrationTests\bin\Debug\DataAccessLayer.dll.config
 C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\IntegrationTests\bin\Debug\pl\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\IntegrationTests\bin\Debug\CookbookApp.exe
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\IntegrationTests\bin\Debug\CookbookApp.pdb
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\IntegrationTests\bin\Debug\CookbookApp.exe.config
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\IntegrationTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Bartek\Documents\Visual Studio 2015\Projects\cookbookapp\IntegrationTests\bin\Debug\Newtonsoft.Json.xml

@@ -89,10 +89,10 @@
             <PropertyRef Name="id" />
           </Key>
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="ingredientName" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="amount" Type="int" />
           <Property Name="unit" Type="varchar" MaxLength="10" />
           <Property Name="userId" Type="nvarchar" MaxLength="128" />
+          <Property Name="ingredientName" Type="varchar(max)" Nullable="false" />
         </EntityType>
         <Association Name="FK__Ingredien__idRec__3A81B327">
           <End Role="Recipes" Type="Self.Recipes" Multiplicity="1">
@@ -328,7 +328,7 @@
             <PropertyRef Name="id" />
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="ingredientName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ingredientName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="amount" Type="Int32" />
           <Property Name="unit" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
           <Property Name="userId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />

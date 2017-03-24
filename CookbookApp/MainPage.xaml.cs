@@ -34,7 +34,6 @@ namespace CookbookApp
         {
             Recipe selected = (Recipe)dataGrid.SelectedItem;
             var recipe = client.GetRecipe(selected.IdRecipe);
-            ImageConverter converter = new ImageConverter();
             NavigationService.Navigate(new RecipePage(RecipeConverter.ConvertRecipe(recipe)));
         }
 

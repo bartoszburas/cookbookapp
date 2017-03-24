@@ -26,7 +26,8 @@ namespace WebApiService.Controllers
             {
                 IDataAccessObject dao = daoFactory.GetDao();
                 result = dao.GetRecipe(id);
-                cache.Add(id.ToString(), result, DateTimeOffset.UtcNow.AddMinutes(15));
+                if(result != null)
+                    cache.Add(id.ToString(), result, DateTimeOffset.UtcNow.AddMinutes(15));
             }
             return result;
         }

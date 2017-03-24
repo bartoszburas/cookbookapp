@@ -6,9 +6,9 @@
     </Key>
     <Property Name="idIngredient" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="idRecipe" Type="Int32" Nullable="false" />
-    <Property Name="name" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="amount" Type="Int32" Nullable="false" />
-    <Property Name="unit" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="unit" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="Recipe" Relationship="Self.FK__Ingredien__idRec__3A81B327" FromRole="Ingredient" ToRole="Recipe" />
   </EntityType>
   <EntityType Name="Preparation">
@@ -16,7 +16,7 @@
       <PropertyRef Name="idRecipe" />
     </Key>
     <Property Name="idRecipe" Type="Int32" Nullable="false" />
-    <Property Name="description" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
     <NavigationProperty Name="Recipe" Relationship="Self.FK__Preparati__idRec__3D5E1FD2" FromRole="Preparation" ToRole="Recipe" />
   </EntityType>
   <EntityType Name="Recipe">
@@ -24,7 +24,7 @@
       <PropertyRef Name="idRecipe" />
     </Key>
     <Property Name="idRecipe" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="preparationTime" Type="Time" Nullable="false" Precision="7" />
     <Property Name="skillLevel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="amount" Type="Int32" Nullable="false" />
@@ -97,7 +97,7 @@
       <PropertyRef Name="id" />
     </Key>
     <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="ingredientName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ingredientName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="amount" Type="Int32" />
     <Property Name="unit" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
     <Property Name="userId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />

@@ -33,14 +33,6 @@ namespace WebApiServiceLayer.Controllers
             dao.AddShopListItem(userId, ingredient);
         }
 
-        // PUT: api/ShopList/5
-        [EnableCors(origins: "https://cookbookmvc.azurewebsites.net", headers: "*", methods: "*")]
-        public void Put(string userId, [FromBody]IngredientDto ingredient)
-        {
-            //IDataAccessObject dao = daoFactory.GetDao();
-            //dao.AddShopListItem(userId, ingredient);
-        }
-
         // DELETE: api/ShopList/someId/ingredientName
         [EnableCors(origins: "https://cookbookmvc.azurewebsites.net", headers: "*", methods: "*")]
         public void Delete(string userId, string ingredientName)
