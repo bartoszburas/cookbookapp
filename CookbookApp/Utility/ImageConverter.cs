@@ -18,7 +18,7 @@ namespace CookbookApp
                 try
                 {
                     image.BeginInit();
-                    image.StreamSource = stream;
+                    image.StreamSource = stream; 
                     image.EndInit();
                 }
                 catch (Exception)
